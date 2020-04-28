@@ -28,6 +28,7 @@ var routes = require('./api/auth/routes/authRouter'); //importing route
 routes(app); //register the route
 
 
+
 app.listen(port);
 
 app.use(function(req, res) {
